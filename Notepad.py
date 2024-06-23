@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog
-
+import customtkinter as ctk
 #lmr_lumiere
 #code pour simuler un notepad valide
 
