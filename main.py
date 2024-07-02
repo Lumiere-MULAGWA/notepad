@@ -8,8 +8,9 @@ from notepad import edit_menu
 from notepad import format_menu
 from notepad import help_menu
 from notepad import config
+import customtkinter as ctk
 
-root = Tk()
+root = ctk.Tk()
 
 root.title(f"Text Editor-Untiltled Made by {config.name}")
 root.geometry("300x250+300+300")
