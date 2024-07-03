@@ -9,6 +9,7 @@ from notepad import format_menu
 from notepad import help_menu
 from notepad import config
 import customtkinter as ctk
+import os
 
 root = ctk.Tk()
 
