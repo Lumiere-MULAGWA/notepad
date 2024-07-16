@@ -8,7 +8,7 @@ class Notepad:
     def __init__(self, master):
         self.master = master
         self.text = tk.Text(self.master)
-        self.text.pack(fill='both', expand=True)
+        self.text.pack(fill='both', expand=False)
 
         # creation du menu bar
         self.menu_bar = tk.Menu(self.master)
