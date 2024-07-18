@@ -4,6 +4,7 @@ from tkinter.font import Font, families
 from tkinter.scrolledtext import *
 
 import time
+import os
 import sys
 
 
