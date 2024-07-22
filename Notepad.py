@@ -20,7 +20,7 @@ class Notepad:
         self.menu_bar.add_cascade(label="File", menu=self.file_menu)
         self.master.config(menu=self.menu_bar)
 
-        self.filename = None
+        self.filename = True 
 
     def new_file(self):
         self.text.delete(1.0, tk.END)
