@@ -46,7 +46,8 @@ class Format():
                 italic_font.configure(slant="italic")
                 self.text.tag_configure("italic", font=italic_font)
         except:
-            pass
+            self.info = ["tout va bien ","normal","anormal"]
+            
 
     def underline(self, *args):  # Works only if text is selected
         try:
