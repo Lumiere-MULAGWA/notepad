@@ -11,7 +11,7 @@ from notepad import config
 import customtkinter as ctk
 import os
 
-root = ctk.Tk()
+root = ctk.CTk()
 
 root.title(f"Text Editor-Untiltled Made by {config.name}")
 root.geometry("300x250+300+300")
