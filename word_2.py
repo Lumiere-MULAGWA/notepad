@@ -200,3 +200,5 @@ if __name__ == "__main__":
     window = WordCloneApp()
     window.show()
     sys.exit(app.exec())
+
+
